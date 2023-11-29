@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "525833305880",
+    "project_id": "complaintsportal-5de71",
+    "storage_bucket": "complaintsportal-5de71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525833305880:android:29780bad76fe31cd12686d",
+        "android_client_info": {
+          "package_name": "com.example.complaints_portal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwX9B6V4d28pcGNZYpeX_9ukt9MoUEU9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
