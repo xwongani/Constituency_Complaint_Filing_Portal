@@ -16,10 +16,9 @@ class NavBar extends StatelessWidget {
             const SizedBox(
               height: 150,
               width: 150,
-              child: Icon(
-                Icons.flag_circle_rounded,
-                color: Colors.orange,
-                size: 70,
+              child: Image(
+                image: NetworkImage(
+                    'https://static.cdnlogo.com/logos/c/87/coat-of-arms-of-zambia.svg'),
               ),
             ),
             Row(

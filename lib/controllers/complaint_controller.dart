@@ -14,8 +14,7 @@ class FirestoreService {
       if (user != null) {
         // Add the complaint to Firestore with the user's ID
         DocumentReference newComplaintRef = await complaintsCollection.add({
-          'userId': user.uid, // Associate the user ID with the complaint
-          'image': complaint.image.toString(),
+          'userId': user.uid,
           'name': complaint.name,
           'details': complaint.details,
           'dateTime': complaint.dateTime,

@@ -7,7 +7,6 @@ class ComplaintTile extends StatelessWidget {
   final String details;
   final DateTime dateTime;
   final String location;
-  final File? image;
   final String compId;
   String status;
 
@@ -17,7 +16,6 @@ class ComplaintTile extends StatelessWidget {
     required this.details,
     required this.dateTime,
     required this.location,
-    required this.image,
     required this.compId,
     required this.status,
   }) : super(key: key);
@@ -61,12 +59,10 @@ class ComplaintTile extends StatelessWidget {
         return ListTile(
           leading: Padding(
             padding: const EdgeInsets.symmetric(vertical: 1),
-            child: image != null
-                ? Image.file(image!)
-                : const Icon(
-                    Icons.image,
-                    size: 40, // Adjust the size as needed
-                  ),
+            child: Icon(
+              Icons.image,
+              size: 40, // Adjust the size as needed
+            ),
           ),
           title: Text(
             name,

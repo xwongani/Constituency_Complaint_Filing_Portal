@@ -8,8 +8,16 @@ class ComplaintxController extends GetxController {
     complaints.add(complaint);
   }
 
+  void setComplaints(List<ComplaintItem> newComplaints) {
+    complaints.assignAll(newComplaints);
+  }
+
   void deleteComplaint(ComplaintItem complaint) {
     complaints.remove(complaint);
+  }
+
+  void deleteComplaintsByUser(String userId) {
+    complaints.removeWhere((complaint) => complaint.userId == userId);
   }
 
   void clearComplaints() {

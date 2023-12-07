@@ -1,0 +1,23 @@
+2023/11/20-20:20:03.776 37f0 Reusing MANIFEST C:\Users\WONGAN~1\AppData\Local\Temp\flutter_tools.cb58f72e\flutter_tools_chrome_device.e1ca7e14\Default\IndexedDB\http_localhost_65047.indexeddb.leveldb/MANIFEST-000001
+2023/11/20-20:20:03.777 37f0 Recovering log #50
+2023/11/20-20:20:03.777 37f0 Reusing old log C:\Users\WONGAN~1\AppData\Local\Temp\flutter_tools.cb58f72e\flutter_tools_chrome_device.e1ca7e14\Default\IndexedDB\http_localhost_65047.indexeddb.leveldb/000050.log 
+2023/11/20-20:20:03.781 9b0 Manual compaction at level-0 from '\x00\x0f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/11/20-20:38:35.556 20d0 Level-0 table #54: started
+2023/11/20-20:38:35.558 20d0 Level-0 table #54: 10989 bytes OK
+2023/11/20-20:38:35.559 20d0 Delete type=0 #50
+2023/11/20-20:38:35.559 20d0 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x0f\x00\x00\x05' @ 679 : 1
+2023/11/20-20:38:35.559 20d0 Compacting 1@0 + 1@1 files
+2023/11/20-20:38:35.566 20d0 Generated table #55@0: 44 keys, 1166 bytes
+2023/11/20-20:38:35.566 20d0 Compacted 1@0 + 1@1 files => 1166 bytes
+2023/11/20-20:38:35.567 20d0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/11/20-20:38:35.567 20d0 Delete type=2 #51
+2023/11/20-20:38:35.568 20d0 Delete type=2 #54
+2023/11/20-20:38:35.568 9b0 Manual compaction at level-0 from '\x00\x0f\x00\x00\x05' @ 679 : 1 .. (end); will stop at (end)
+2023/11/20-20:38:35.568 20d0 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x005\x002\x005\x008\x003\x003\x003\x000\x005\x008\x008\x000\x00:\x00w\x00e\x00b\x00:\x004\x00b\x00f\x00f\x007\x00a\x003\x007\x009\x000\x005\x002\x00a\x007\x002\x00f\x001\x002\x006\x008\x006\x00d' @ 655 : 1
+2023/11/20-20:38:35.568 20d0 Compacting 1@1 + 1@2 files
+2023/11/20-20:38:35.569 20d0 Generated table #56@1: 34 keys, 998 bytes
+2023/11/20-20:38:35.570 20d0 Compacted 1@1 + 1@2 files => 998 bytes
+2023/11/20-20:38:35.570 20d0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/20-20:38:35.570 20d0 Delete type=2 #48
+2023/11/20-20:38:35.571 20d0 Delete type=2 #55
+2023/11/20-20:38:35.571 20d0 Manual compaction at level-1 from '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x005\x002\x005\x008\x003\x003\x003\x000\x005\x008\x008\x000\x00:\x00w\x00e\x00b\x00:\x004\x00b\x00f\x00f\x007\x00a\x003\x007\x009\x000\x005\x002\x00a\x007\x002\x00f\x001\x002\x006\x008\x006\x00d' @ 655 : 1 .. (end); will stop at (end)

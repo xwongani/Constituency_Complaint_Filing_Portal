@@ -120,6 +120,7 @@ class _LoginAdminContainerState extends State<LoginAdminContainer> {
                     style: TextStyle(
                       color: const Color.fromARGB(255, 1, 46, 2),
                       fontSize: 20,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ],

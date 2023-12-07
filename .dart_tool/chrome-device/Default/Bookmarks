@@ -1,0 +1,60 @@
+{
+   "checksum": "25f28476866dbba79a3387d0301e17a8",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13223059753443140",
+            "date_last_used": "0",
+            "guid": "04bac8cb-f08e-4506-aaca-acb27006f496",
+            "id": "7",
+            "name": "Bing",
+            "type": "url",
+            "url": "http://go.microsoft.com/fwlink/p/?LinkId=255142"
+         }, {
+            "date_added": "13228861938297640",
+            "date_last_used": "0",
+            "guid": "5c27fc98-26ba-48ef-95cc-ca46b2c4ea8a",
+            "id": "8",
+            "name": "c i What is a bus ii The expert mentioned that STYD brand computer used either",
+            "type": "url",
+            "url": "https://www.coursehero.com/file/p3as0uv/c-i-What-is-a-bus-ii-The-expert-mentioned-that-STYD-brand-computer-used-either/"
+         }, {
+            "date_added": "13228862334781135",
+            "date_last_used": "0",
+            "guid": "4302f8d5-ee80-44d9-83d8-99e7c44d10e0",
+            "id": "9",
+            "name": "c i What is a bus ii The expert mentioned that STYD brand computer used either",
+            "type": "url",
+            "url": "read://https//www.coursehero.com/file/p3as0uv/c-i-What-is-a-bus-ii-The-expert-mentioned-that-STYD-brand-computer-used-either/"
+         } ],
+         "date_added": "13339597925611601",
+         "date_last_used": "0",
+         "date_modified": "13228862334781135",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13339597925611610",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13339597925611613",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

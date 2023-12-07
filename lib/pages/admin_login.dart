@@ -1,4 +1,5 @@
 import 'package:complaints_portal/components/login_container%20admin.dart';
+import 'package:complaints_portal/components/navbar3.dart';
 import 'package:complaints_portal/components/navigation_bar_admin.dart';
 import 'package:flutter/material.dart';
 
@@ -20,7 +21,8 @@ class _OfficialLoginPageState extends State<OfficialLoginPage> {
           child: SingleChildScrollView(
         child: Center(
           child: Column(children: [
-            NavBarAdmin(),
+//NavbarAdmin1 is found in navbar3 in components
+            NavBarAdmin1(),
             SizedBox(height: 80),
             // Citizens Complaint Portal
             Padding(

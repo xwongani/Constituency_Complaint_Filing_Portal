@@ -5,7 +5,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 class ComplaintItem {
   String compId;
   final String userId;
-  final File? image;
   final String name;
   final String details;
   final DateTime dateTime;
@@ -19,7 +18,6 @@ class ComplaintItem {
   ComplaintItem({
     required this.compId,
     required this.userId,
-    required this.image,
     required this.name,
     required this.details,
     required this.dateTime,
@@ -35,7 +33,6 @@ class ComplaintItem {
     return {
       'compId': compId,
       'userId': userId,
-      'image': image?.path,
       'name': name,
       'details': details,
       'dateTime': Timestamp.fromDate(dateTime),
@@ -52,7 +49,6 @@ class ComplaintItem {
     return ComplaintItem(
       compId: json['compId'] ?? '',
       userId: json['userId'] ?? '',
-      image: json['image'] != null ? File(json['image']) : null,
       name: json['name'] ?? '',
       details: json['details'] ?? '',
       dateTime: (json['dateTime'] as Timestamp?)?.toDate() ?? DateTime.now(),

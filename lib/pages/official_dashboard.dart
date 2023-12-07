@@ -231,7 +231,7 @@ class _OfficialDashboardState extends State<OfficialDashboard> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 1, 46, 2),
+      backgroundColor: Color.fromARGB(255, 1, 41, 2),
       body: Builder(builder: (BuildContext context) {
         return Column(
           children: [
